@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.Heading {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#4d8635, #d2f36f, #44bd32);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.main {
+  display: flex;
+  background-color: #4d8635;
+  padding: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+.main:hover {
+  box-shadow: 0 4px 8px 0 #d2f36f, 0 6px 20px 0 #d2f36f;
+}
+.main .Stop-watch {
+  padding: 10px;
+}
+.main .Stop-watch h1 {
+  color: #d2f36f;
+  font-size: 35px;
+}
+.main .Stop-watch button {
+  padding: 5px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #44bd32;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+.main .Stop-watch button:hover {
+  background-color: #3cac0c;
+}
